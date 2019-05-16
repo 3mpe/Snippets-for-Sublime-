@@ -1,0 +1,18 @@
+<snippet>
+    <!-- Type `partialcomment` or `pcomment` and hit tab to output a comment block. -->
+    <!-- Type a short description of your partial and you're good to go! -->
+    <content><![CDATA[
+//--------------------------------------------------------------
+// Start ${1:Partial Description}
+//--------------------------------------------------------------
+// ${2:Source Code}
+//--------------------------------------------------------------
+// End ${3:Partial Description}
+//--------------------------------------------------------------
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>comment</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <description>Insert a Javascript comments</description>
+    <scope>source.js</scope>
+</snippet>

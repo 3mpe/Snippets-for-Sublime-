@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${1:document}.querySelectorAll('${2:selector}');
+]]></content>
+	<tabTrigger>qsa</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<description>Insert a Javascript QuerySelectorAll</description>
+	<scope>source.js</scope> 
+</snippet>

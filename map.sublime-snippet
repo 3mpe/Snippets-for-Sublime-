@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+var data = ${1};
+data.map(function(item, index) {
+	${2:// Code}
+});
+]]></content>
+	<tabTrigger>map</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<description>Insert a Javascript custom map function</description>
+	<scope>source.js</scope> 
+</snippet>

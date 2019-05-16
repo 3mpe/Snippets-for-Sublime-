@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+console.log("${1:Key}", ${2:Value})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cl</tabTrigger>
+	
+	<description>Insert a Javascript function - console.log(key, value)</description>
+	<scope>source.js</scope>
+</snippet>
